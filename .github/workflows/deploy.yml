@@ -46,4 +46,4 @@ jobs:
 
       - name: Deploy the stack
         if: github.ref == 'refs/heads/main'
-        run: yarn cdk deploy --require-approval never
+        run: yarn cdk deploy --require-approval never --all
