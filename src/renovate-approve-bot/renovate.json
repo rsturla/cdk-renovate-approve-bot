@@ -1,5 +1,0 @@
-{
-  "extends": [
-    "github>renovatebot/presets-internal:node"
-  ]
-}
