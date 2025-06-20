@@ -1,0 +1,15 @@
+deployments:
+  - name: rsturla-sandbox
+    appName: rsturla-sandbox
+    ssmPath: /RENOVATE_APPROVE_BOT/RSTURLA_SANDBOX
+    renovateApproveBotUser: rs-sbx-renovate-approve-bot[bot]
+
+  - name: ublue-os-1
+    appName: ublue-os-approve-1
+    ssmPath: /RENOVATE_APPROVE_BOT/UBLUE_OS_1
+    renovateApproveBotUser: ublue-os-approve-1[bot]
+
+  - name: ublue-os-2
+    appName: ublue-os-approve-2
+    ssmPath: /RENOVATE_APPROVE_BOT/UBLUE_OS_2
+    renovateApproveBotUser: ublue-os-approve-2[bot]
