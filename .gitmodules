@@ -1,0 +1,3 @@
+[submodule "renovate-approve-bot"]
+	path = ./src/renovate-approve-bot
+	url = https://github.com/renovatebot/renovate-approve-bot.git

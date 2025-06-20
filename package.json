@@ -1,0 +1,25 @@
+{
+  "name": "cdk-renovate-approve-bot",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.830.0",
+    "@probot/adapter-aws-lambda-serverless": "4.0.3",
+    "aws-cdk-lib": "2.201.0",
+    "constructs": "10.4.2",
+    "source-map-support": "0.5.21"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.32",
+    "aws-cdk": "2.1019.1",
+    "esbuild": "^0.25.5",
+    "typescript": "5.8.3"
+  },
+  "packageManager": "yarn@4.9.2",
+  "workspaces": [
+    "src/renovate-approve-bot"
+  ]
+}
