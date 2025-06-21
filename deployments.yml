@@ -7,11 +7,11 @@ deployments:
   - name: ublue-os-1
     appName: ublue-os-approve-1
     ssmPath: /RENOVATE_APPROVE_BOT/UBLUE_OS_1
-    renovateBotUser: ublue-os-renovate[bot]
+    renovateBotUser: ubot-7274[bot]
     renovateApproveBotUser: ublue-os-approve-1[bot]
 
   - name: ublue-os-2
     appName: ublue-os-approve-2
     ssmPath: /RENOVATE_APPROVE_BOT/UBLUE_OS_2
-    renovateBotUser: ublue-os-renovate[bot]
+    renovateBotUser: ubot-7274[bot]
     renovateApproveBotUser: ublue-os-approve-2[bot]
