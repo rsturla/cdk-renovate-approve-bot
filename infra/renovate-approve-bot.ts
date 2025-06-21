@@ -43,10 +43,10 @@ export class RenovateApproveBotStack extends cdk.Stack {
             SSM_PATH: props.ssmPath,
         };
         if (props.renovateBotUser) {
-            environment.RENOVATE_BOT = props.renovateBotUser;
+            environment.RENOVATE_BOT_USER = props.renovateBotUser;
         }
         if (props.renovateApproveBotUser) {
-            environment.RENOVATE_APPROVE_BOT = props.renovateApproveBotUser;
+            environment.RENOVATE_APPROVE_BOT_USER = props.renovateApproveBotUser;
         }
 
         const lambdaFunction = new NodejsFunction(this, 'RenovateApproveBotFunction', {

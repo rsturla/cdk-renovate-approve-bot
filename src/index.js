@@ -4,6 +4,7 @@ const { createProbot, createLambdaFunction } = require('@probot/adapter-aws-lamb
 const appFn = require('./renovate-approve-bot');
 
 const ssmPath = process.env.SSM_PATH || '';
+const renovateBot = process.env.RENOVATE_BOT || '';
 
 async function getSSMParameters(names, withDecryption = true) {
   const paramNames = names.map(name =>
@@ -64,6 +65,7 @@ exports.lambdaFn = async (event, context) => {
       APP_ID: secrets.APP_ID,
       PRIVATE_KEY: secrets.PRIVATE_KEY,
       WEBHOOK_SECRET: secrets.WEBHOOK_SECRET,
+      RENOVATE_BOT: renovateBot,
     },
   });
 
