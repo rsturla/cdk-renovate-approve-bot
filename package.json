@@ -15,7 +15,7 @@
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "22.15.32",
-    "aws-cdk": "2.1019.1",
+    "aws-cdk": "2.1026.0",
     "esbuild": "^0.25.5",
     "typescript": "5.8.3"
   },
